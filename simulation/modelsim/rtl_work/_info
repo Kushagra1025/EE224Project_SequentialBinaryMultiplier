@@ -1,0 +1,172 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/DigitalLabExptsHws/Project/simulation/modelsim
+Edut
+Z1 w1728799810
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8D:/DigitalLabExptsHws/Project/DUT.vhdl
+Z5 FD:/DigitalLabExptsHws/Project/DUT.vhdl
+l0
+L4
+VJIE[PAnG3QleM6j9mK]ff1
+!s100 GzRVe^@DmLZ66_QI]RSfl1
+Z6 OV;C;10.5b;63
+31
+Z7 !s110 1728917745
+!i10b 1
+Z8 !s108 1728917745.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|D:/DigitalLabExptsHws/Project/DUT.vhdl|
+Z10 !s107 D:/DigitalLabExptsHws/Project/DUT.vhdl|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+DEx4 work 3 dut 0 22 JIE[PAnG3QleM6j9mK]ff1
+l61
+L17
+V70iCl8d@Z86k;dh[`b4ZP0
+!s100 23P28lEChT8ahY0h7_i@30
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Emultiplier_4bit_datapath
+Z13 w1728799809
+Z14 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R2
+R3
+R0
+Z15 8D:/DigitalLabExptsHws/Project/DATAPATH_VHDL.vhd
+Z16 FD:/DigitalLabExptsHws/Project/DATAPATH_VHDL.vhd
+l0
+L5
+V[i=IIj>7[3QT54fjH`cnl2
+!s100 CbVUIB@@`C^hGiMKnez2T0
+R6
+31
+R7
+!i10b 1
+R8
+Z17 !s90 -reportprogress|300|-93|-work|work|D:/DigitalLabExptsHws/Project/DATAPATH_VHDL.vhd|
+Z18 !s107 D:/DigitalLabExptsHws/Project/DATAPATH_VHDL.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R14
+R2
+R3
+DEx4 work 24 multiplier_4bit_datapath 0 22 [i=IIj>7[3QT54fjH`cnl2
+l36
+L18
+V>D>GNi9AD[IhHg=UelO0d3
+!s100 2iiz_QB10:=]>Q7dZ?GJB3
+R6
+31
+R7
+!i10b 1
+R8
+R17
+R18
+!i113 1
+R11
+R12
+Emultiplier_4bit_fsm
+R1
+R14
+R2
+R3
+R0
+Z19 8D:/DigitalLabExptsHws/Project/FSM_Controller.vhd
+Z20 FD:/DigitalLabExptsHws/Project/FSM_Controller.vhd
+l0
+L5
+V53kn]ic4U427l7]RZkJmI1
+!s100 ;?@GCkbE82S?Ylle8Z=i[2
+R6
+31
+R7
+!i10b 1
+R8
+Z21 !s90 -reportprogress|300|-93|-work|work|D:/DigitalLabExptsHws/Project/FSM_Controller.vhd|
+Z22 !s107 D:/DigitalLabExptsHws/Project/FSM_Controller.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R14
+R2
+R3
+DEx4 work 19 multiplier_4bit_fsm 0 22 53kn]ic4U427l7]RZkJmI1
+l23
+L19
+VE9Q>WiM;bfzzTHFYRb^Yb2
+!s100 DFOeQL_SMPobe66IJ@nJX1
+R6
+31
+R7
+!i10b 1
+R8
+R21
+R22
+!i113 1
+R11
+R12
+Emultiplier_4bit_tb
+Z23 w1728821354
+R14
+R2
+R3
+R0
+Z24 8D:/DigitalLabExptsHws/Project/Testbench.vhdl
+Z25 FD:/DigitalLabExptsHws/Project/Testbench.vhdl
+l0
+L5
+VfVLVI]ci8>OD8lL64m`Yc3
+!s100 Sz@e4_HzG:Cli2VzAUG:B2
+R6
+31
+R7
+!i10b 1
+R8
+Z26 !s90 -reportprogress|300|-93|-work|work|D:/DigitalLabExptsHws/Project/Testbench.vhdl|
+Z27 !s107 D:/DigitalLabExptsHws/Project/Testbench.vhdl|
+!i113 1
+R11
+R12
+Abehavioral
+R14
+R2
+R3
+DEx4 work 18 multiplier_4bit_tb 0 22 fVLVI]ci8>OD8lL64m`Yc3
+l34
+L8
+VjPXhXon3e@fJlT<KA<Fk50
+!s100 XjbiXF>Q`ZRMZOond=0iN3
+R6
+31
+R7
+!i10b 1
+R8
+R26
+R27
+!i113 1
+R11
+R12

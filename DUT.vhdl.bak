@@ -1,0 +1,31 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use work.gates.all;
+
+entity DUT is
+    port(input_vector: in std_logic_vector(7 downto 0);
+       	output_vector: out std_logic_vector(4 downto 0));
+end entity DUT;
+                                                                                                                                                                                                                                     
+architecture DUTWrap of DUT is
+
+		component BCD_ADDER is
+			 port(input_vector: in std_logic_vector(7 downto 0);
+					output_vector: out std_logic_vector(4 downto 0));
+		end component BCD_ADDER;
+		
+begin
+	g1:BCD_ADDER port map(input_vector(0)=>input_vector(0),
+								 input_vector(1)=>input_vector(1),
+								 input_vector(2)=>input_vector(2),
+								 input_vector(3)=>input_vector(3),
+								 input_vector(4)=>input_vector(4),
+								 input_vector(5)=>input_vector(5),
+								 input_vector(6)=>input_vector(6),
+								 input_vector(7)=>input_vector(7),
+								 output_vector(0)=>output_vector(0),
+								 output_vector(1)=>output_vector(1),
+								 output_vector(2)=>output_vector(2),
+								 output_vector(3)=>output_vector(3),
+								 output_vector(4)=>output_vector(4));
+end DUTWrap;

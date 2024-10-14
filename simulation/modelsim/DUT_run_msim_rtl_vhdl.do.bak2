@@ -1,0 +1,11 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {C:/Users/pavit/Downloads/DigitalCircuitsLab/Project/DUT.vhdl}
+vcom -93 -work work {C:/Users/pavit/Downloads/DigitalCircuitsLab/Project/FSM_Controller.vhd}
+vcom -93 -work work {C:/Users/pavit/Downloads/DigitalCircuitsLab/Project/DATAPATH_VHDL.vhd}
+

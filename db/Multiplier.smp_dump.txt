@@ -1,0 +1,8 @@
+
+State Machine - |DUT|multiplier_4bit_fsm:fsm_inst|state
+Name state.DONE state.SHIFT0 state.ADD state.LOAD0 state.IDLE 
+state.IDLE 0 0 0 0 0 
+state.LOAD0 0 0 0 1 1 
+state.ADD 0 0 1 0 1 
+state.SHIFT0 0 1 0 0 1 
+state.DONE 1 0 0 0 1 
